@@ -23,7 +23,7 @@ mix.js('./resources/js/index.js', 'public/js').vue().version()
 
 mix.sass('./resources/sass/app.scss', 'public/css').version()
 
-mix.webpackConfig(require('./webpack.config'));
+//mix.webpackConfig(require('./webpack.config'));
 
 
 mix.browserSync({
