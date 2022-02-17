@@ -10,7 +10,7 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ mix('js/index.js') }}" defer></script>
+    <script src="{{ asset('js/index.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -19,7 +19,7 @@
     <link href="{{asset("fonts/simple-line-icons/css/simple-line-icons.css")}}" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ mix('css/piaf.light.greysteel.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/piaf.light.greysteel.css') }}" rel="stylesheet">
 </head>
 <body>
     @yield("content")
