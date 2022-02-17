@@ -1,10 +1,11 @@
 const CopyPlugin = require('copy-webpack-plugin')
 
 module.exports = {
+
   pages: {
     index: {
       entry: 'resources/js/index.js',
-      template: 'resources/js/public/index.html',
+      template: 'public/index.html',
       filename: 'index.html'
     }
   },
@@ -22,7 +23,8 @@ module.exports = {
       ignored: /node_modules/
     }
   },
-    chainWebpack: config => {
+
+  chainWebpack: config => {
     config.plugins.delete('prefetch-index'),
     config.module
       .rule('vue')
@@ -32,7 +34,7 @@ module.exports = {
           })
   },
   productionSourceMap: false,
-  assetsDir: './resources/assets/',
+  assetsDir: './assets/',
   configureWebpack: {
     plugins: [
       new CopyPlugin({

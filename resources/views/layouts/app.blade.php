@@ -10,18 +10,18 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/index.js') }}" defer></script>
-
+    
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="{{asset("fonts/iconsmind/style.css")}}" rel="stylesheet">
     <link href="{{asset("fonts/iconsmind-s/css/iconsminds.css")}}" rel="stylesheet">
     <link href="{{asset("fonts/simple-line-icons/css/simple-line-icons.css")}}" rel="stylesheet">
-
+    
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
     @yield("content")
+    <script src="{{ asset('js/index.js') }}" defer></script>
 </body>
 </html>
