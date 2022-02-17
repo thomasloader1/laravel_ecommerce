@@ -19,7 +19,7 @@
     <link href="{{asset("fonts/simple-line-icons/css/simple-line-icons.css")}}" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/piaf.light.greysteel.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
     @yield("content")
