@@ -19,11 +19,11 @@ mix.browserSync({
 mix.disableNotifications();
 
 
-mix.js('./resources/js/index.js', 'public/js').vue().version()
+mix.js('./resources/js/main.js', 'public/js').vue().version()
 
-mix.sass('./resources/sass/app.scss', 'public/css').version()
+//mix.sass('./resources/sass/app.scss', 'public/css').version()
 
-//mix.webpackConfig(require('./webpack.config'));
+mix.webpackConfig(require('./webpack.config'));
 
 
 mix.browserSync({

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkEcommerce_vue=self.webpackChunkEcommerce_vue||[]).push([[502],{96502:function(e,u,n){n.r(u),n.d(u,{default:function(){return t}});var r={},t=(0,n(51900).Z)(r,(function(){var e=this.$createElement;return(this._self._c||e)("router-view")}),[],!1,null,null,null).exports}}]);

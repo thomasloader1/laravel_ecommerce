@@ -22,6 +22,7 @@
 </head>
 <body>
     @yield("content")
+    <script src="{{ asset('js/main.js') }}" defer></script>
     <script src="{{ asset('js/index.js') }}" defer></script>
 </body>
 </html>

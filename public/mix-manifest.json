@@ -1,4 +1,20 @@
 {
-    "/js/index.js": "/js/index.js?id=b87191075b9a65d4690c",
-    "/css/app.css": "/css/app.css?id=e3080d299187d0c894f9"
+    "/js/main.js": "/js/main.js?id=365e0797a01d970ac899",
+    "/js/app.js": "/js/app.js?id=2a5f2ae8cc708134008d",
+    "/js/dashboards.js": "/js/dashboards.js?id=cee0120f4234fc4a57f3",
+    "/js/pages.js": "/js/pages.js?id=4a691c2028afe257a654",
+    "/js/product.js": "/js/product.js?id=73f2f7a9a57174bca17b",
+    "/js/profile.js": "/js/profile.js?id=b7dd88cec6ec58307d0c",
+    "/js/blog.js": "/js/blog.js?id=99aa16d81ba240caed95",
+    "/js/miscellaneous.js": "/js/miscellaneous.js?id=39c3a9ac7b5060161844",
+    "/js/applications.js": "/js/applications.js?id=8c41643ed3b2d92861ee",
+    "/js/ui.js": "/js/ui.js?id=2598c8d2cb29c846d011",
+    "/js/forms.js": "/js/forms.js?id=bffe1ae4c16f33bd4229",
+    "/js/datatables.js": "/js/datatables.js?id=eb44476ef5d75b88a017",
+    "/js/components.js": "/js/components.js?id=8bd4171b8c4e22f93bc7",
+    "/js/menu.js": "/js/menu.js?id=b967707fa66093841904",
+    "/js/menu-levels.js": "/js/menu-levels.js?id=fd2b21de50aefdc179f3",
+    "/js/blank-page.js": "/js/blank-page.js?id=7a9782718e29659dfdb1",
+    "/js/error.js": "/js/error.js?id=5be8ba4095b3b84d7133",
+    "/js/user.js": "/js/user.js?id=cf646f9945593656dfb5"
 }
